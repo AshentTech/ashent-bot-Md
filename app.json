@@ -1,4 +1,4 @@
-{
+how{
   "name": "ashent-md",
   "description": "Hi there, I am Ashent Bot Whatsapp Chuddy Buddy built in NodeJs to make experience better.\n\t Incase of Any Problem Whatsapp me on: +263787914273",
   "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
@@ -61,7 +61,7 @@
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "valu: "",
+      "valu: ""
       "required" :true 
     },   
     "HEROKU_APP_NAME": {
