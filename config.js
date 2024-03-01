@@ -22,9 +22,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "254728782591" // Developer Contact
+global.devs = "263787914273" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "admin";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263719916507";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263787914273";
 
 
 
@@ -55,21 +55,21 @@ global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "263719916507,923xxxxxxxx";
 
 global.api_smd = "https://api-smd-1.vercel.app"
-global.scan = "https://qr-scan.giftedtechnexus.co.ke/";
+global.scan = "https://ashent-md-qr.onrender.com/";
 
 module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Ashent Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "+",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "©²⁰²⁴ ᴀsʜᴇɴᴛ ʙᴏᴛ ᴍᴅ" , // ```『 ᴀsʜᴇɴᴛᴛᴇᴄʜ ʙʏ ᴀsʜᴇɴᴛ ᴛᴇᴄʜ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ᴀsʜᴇɴᴛ ᴛᴇᴄʜ』*\n https://whatsapp.com/channel/0029VaKQJ1A8F2pAAKP6Ms3Q"),
+  caption : process.env.CAPTION || "©²⁴ ᴀsʜᴇɴᴛ ʙᴏᴛ ᴍᴅ" , // ```『 ᴀsʜᴇɴᴛᴛᴇᴄʜ ʙʏ ᴀsʜᴇɴᴛ ᴛᴇᴄʜ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ᴀsʜᴇɴᴛ ᴛᴇᴄʜ』*\n https://whatsapp.com/channel/0029VaKQJ1A8F2pAAKP6Ms3Q"),
  
   author : process.env.PACK_AUTHER|| "ᴀsʜᴇɴᴛ ᴛᴇᴄʜ",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || " ᴀsʜᴇɴᴛ ᴛᴇᴄʜ",
-  ownername:process.env.OWNER_NAME|| "It's AshentTech",
+  ownername:process.env.OWNER_NAME|| "AshentTech",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
